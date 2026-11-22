@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# Large genomic datasets
+data/*.fasta
+data/*.fa
+data/*.fna
+data/*.fastq
+data/*.fq
+
+# Keep the small sample dataset
+!data/sample.fasta
+
+# Results
+results/*
+!results/.gitkeep
